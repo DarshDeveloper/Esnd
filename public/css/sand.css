@@ -1,0 +1,98 @@
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    background: #141F35;
+}
+
+.container{
+    width:1170px;
+}
+
+/* start masnod dashboard */
+.brannd{
+    background:#141F35;
+}
+
+
+.vmasnod-dash{
+    text-align: center;
+    color:#FFF;
+    padding-top:0px;
+    padding-bottom:30px;
+}
+
+.tap{
+    text-align: center;
+}
+
+.brannd .vmasnod-dash .h1{
+    text-transform:uppercase;
+    margin-top:60px;
+    margin-bottom:30px;
+}
+
+@media(max-width:767px){
+    .brannd .vmasnod-dash .h1{
+        font-size:24px;
+        width:80%;
+    }
+}
+
+@media(min-width:768px){
+    .brannd .vmasnod-dash .h1{
+        font-size:24px;
+    }
+}
+
+@media(min-width:1199){
+    .brannd .vmasnod-dash .h1{
+        font-size:24px;
+        margin-left:2px;
+    }
+}
+
+@media(min-width:1200px){
+    .brannd .vmasnod-dash .h1{
+        font-size:24px;
+        margin-left:7px;
+    }
+}
+
+
+.table{
+    overflow: hidden;
+}
+
+
+@media(max-width:767px){
+    .table{
+        font-size:10px;
+        width:30%;
+       
+    }
+}
+
+@media(min-width:768px){
+    .table{
+        font-size:20px;
+        width:90%;
+        margin-left: 100px;
+    }
+}
+
+@media(min-width:1199px){
+    .table{
+        font-size:24px;
+        width:100%;
+        margin-left: 0;
+    }
+}
+
+@media(min-width:1200px){
+    .table{
+        font-size:24px;
+        width:100%;
+        margin-left: 0;
+    }
+}

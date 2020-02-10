@@ -1,0 +1,141 @@
+
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+}
+
+.container{
+    width:1170px;
+}
+
+/* start masnod dashboard */
+.brannd{
+    background:#141F35;
+}
+
+.masnod-dash{
+    text-align: center;
+    color:#FFF;
+    min-height:1500px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+.forms{
+    border-radius:10px;
+    padding-bottom: 20px;
+}
+
+.brannd .masnod-dash h1{
+    text-transform:uppercase;
+}
+
+.brannd .masnod-dash h1:after{
+    content: '';
+    display:block;
+    width:200px;
+    height:2px;
+    background-color:#fff;
+    margin:20px auto;
+}
+
+.brannd .masnod-dash label{
+    margin-top:26px;
+}
+
+.brannd .masnod-dash input[type="text"]{
+    padding-top:20px;
+    display: inline-block;
+    padding-bottom:20px;
+    margin: 5px;
+    background-color:#283F6C;
+    
+    border-radius:20px;
+    box-shadow:none;
+    color:#fff;
+}
+
+
+/**** end masnod dashboard **/
+
+/* start masnod request */
+
+.masnod-request{
+    margin-top:50px;
+    border-radius:10px;
+}
+
+.masnod-request .h1{
+    text-transform:uppercase;
+    width: 50%;
+
+}
+
+
+.brannd .masnod-dash .h1:after{
+    content: '';
+    display:block;
+    width:200px;
+    height:2px;
+    background-color:#fff;
+    margin:20px auto;
+}
+
+.brannd .masnod-dash .masnod-request label{
+    margin-top:26px;
+}
+
+.brannd .masnod-dash .masnod-request input[type="text"]{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin: 5px;
+    background-color:#283F6C;
+    
+    border-radius:20px;
+    box-shadow:none;
+
+    color:#fff;
+}
+
+.brannd .masnod-dash .masnod-request input[type="file"]{
+    padding-top:20px;
+    padding-bottom:30px;
+    margin: 5px;
+    background-color:#283F6C;
+
+    border-radius:20px;
+    box-shadow:none;
+    color:#fff;
+}
+
+.btn-sand{
+    border-radius:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#fff;
+    padding:15px 30px;
+    width:750px;
+    text-align:center;
+    background-color:#283F6C;
+}
+
+/**** End masnod request ****/
+
+
+/* start table */
+
+.table{
+    margin-top:50px;
+    margin-bottom:20px;
+    
+    border-radius:10px;
+    border-bottom:1px solid #fff;
+
+}
+
+.table a{
+    color:#fff;
+}
+
+/**** End table ****/

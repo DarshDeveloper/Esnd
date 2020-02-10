@@ -1,0 +1,159 @@
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-tabs > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.tab-content > .active {
+    display: block;
+    visibility: visible;
+}
+
+.fade.in {
+    opacity: 1;
+}
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+}
+
+.container{
+    width:1170px;
+}
+
+/* start masnod dashboard */
+.brannd{
+    background:#141F35;
+}
+
+.masnod-dash{
+    text-align: center;
+    color:#FFF;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+.brannd .masnod-dash h1{
+    text-transform:uppercase;
+    margin:0;
+}
+
+.brannd .masnod-dash h1:after{
+    content: '';
+    display:block;
+    width:200px;
+    height:2px;
+    background-color:#fff;
+    margin:20px auto;
+}
+
+.brannd .masnod-dash .h1{
+    text-transform:uppercase;
+    margin-top:100px;
+}
+
+.brannd .masnod-dash .h1:after{
+    content: '';
+    display:block;
+    width:200px;
+    height:2px;
+    background-color:#fff;
+    margin:20px auto;
+}
+
+
+/**** end masnod dashboard **/
+
+/* start masnod request */
+
+.masnod-request .h1{
+    text-transform:uppercase;
+}
+
+.top{
+    padding-top:50px;
+}
+
+.brannd .masnod-dash .h1:after{
+    content: '';
+    display:block;
+    width:200px;
+    height:2px;
+    background-color:#fff;
+    margin:20px auto;
+}
+
+.tab-pane{
+    min-height:500px;
+}
+
+
+/**** End masnod request ****/
+
+
+/* start table */
+
+.table{
+    margin-top:50px;
+    margin-bottom:20px;
+
+    border-radius:10px;
+    border-bottom:1px solid #fff;
+
+}
+
+.table a{
+    color:#fff;
+}
+
+/**** End table ****/

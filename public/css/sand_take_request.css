@@ -1,0 +1,94 @@
+
+body{
+    padding:0;
+    margin:0;
+    background: #141f35;
+    width:100%;
+}
+
+.container{
+    width:1170px;
+}
+
+/* start masnod dashboard */
+.brannd{
+    background:#141F35;
+}
+
+.brannd .masnod-dash{
+    height:657px;
+}
+
+/* start masnod request */
+
+.masnod-request{
+    margin-top:40px;
+    border-radius:10px;
+    color: #fff;
+}
+
+.masnod-request .h1{
+    text-transform:uppercase;
+    width: 50%;
+
+}
+
+
+.brannd .masnod-dash .h1:after{
+    content: '';
+    display:block;
+    width:200px;
+    height:2px;
+    background-color:#fff;
+    margin:20px auto;
+}
+
+.brannd .masnod-dash .masnod-request label{
+    margin-top:26px;
+}
+
+.brannd .masnod-dash .masnod-request input[type="text"]{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin: 5px;
+    background-color:#283F6C;
+
+    border-radius:20px;
+    box-shadow:none;
+
+    color:#fff;
+}
+
+.brannd .masnod-dash .masnod-request input[type="file"]{
+    padding-top:20px;
+    padding-bottom:30px;
+    margin: 5px;
+    background-color:#283F6C;
+
+    border-radius:40px;
+    box-shadow:none;
+    color:#fff;
+}
+
+.btn-sand{
+    border-radius:20px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    border:1px solid #fff;
+    color:#fff;
+    padding:15px 30px;
+    width:750px;
+
+    background-color:#283F6C;
+}
+
+/**** End masnod request ****/
+
+/** image **/
+
+.brannd .masnod-dash .masnod-request img{
+    width:45%;
+    height:45%;
+    overflow:hidden;
+    border-radius:20px;
+}

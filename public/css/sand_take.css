@@ -1,0 +1,13 @@
+html, body{font: 14px sans-serif; }
+.wrapper{ width: 100%; padding: 20px; }
+/* .contentcenter{height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;} */
+
+    .logo{
+    width: 100px;
+    background: transparent;    
+    }
+
+    
